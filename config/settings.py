@@ -1,6 +1,6 @@
 import os
 import django_heroku
-from python_decouple import config
+from python-decouple import config
 import dj_database_url
 
 
