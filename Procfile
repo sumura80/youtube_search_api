@@ -1,1 +1,1 @@
-web: gunicorn youtubesearch.wsgi
+web: gunicorn config.wsgi
