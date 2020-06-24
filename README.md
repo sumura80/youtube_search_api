@@ -1,7 +1,7 @@
 # README
 
 ## Application Name: NewTube
-##URL: https://newtubesearch.herokuapp.com/
+URL: https://newtubesearch.herokuapp.com/
 
 ## Overview
 YouTube APIを使い、検索した項目に関する動画を表示する。
