@@ -2,7 +2,7 @@ import os
 import django_heroku
 from decouple import config
 import dj_database_url
-
+from .local_settings import *
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -114,7 +114,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-YOUTUBE_DATA_API_KEY = 'AIzaSyDbiswrwo0aG-afjXep2rDPbBzbfFGAXuM'
+
 
 #CSSとかをHerokuで反映させるのに必要
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
